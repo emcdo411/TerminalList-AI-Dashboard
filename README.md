@@ -1,6 +1,6 @@
-# 📡 TerminalList-AI-Dashboard
+# 📱 TerminalList-AI-Dashboard
 
-### 🎯 Interactive R Shiny Dashboard | Fiction vs. Future Military AI
+### 🌟 Interactive R Shiny Dashboard | Fiction vs. Future Military AI
 
 A fully interactive R Shiny dashboard visualizing and comparing the fictional AI tools from *Amazon’s The Terminal List*—**Specter** and **GhostNet**—against their closest real-world military counterparts: **Palantir MetaConstellation**, **Project Maven**, **NSA PRISM**, and **DARPA Narrative Networks**.
 
@@ -10,7 +10,7 @@ Designed with a modern **HUD-inspired UI** and **Power BI-style theming**, this 
 
 ## 📂 Table of Contents
 - [🚀 Summary](#-summary)
-- [⚙️ Installation](#️-installation)
+- [⚙️ Installation](#%ef%b8%8f-installation)
 - [💻 Usage](#-usage)
 - [🧠 Code Features](#-code-features)
 - [📊 Data Sources](#-data-sources)
@@ -40,17 +40,26 @@ This dashboard lets you explore how AI tools from *The Terminal List* stack up a
 
 ## ⚙️ Installation
 To run locally:
+
+### 🌟 Required Packages
+![shiny](https://img.shields.io/badge/R-shiny-blue?style=flat-square) 
+![shinydashboard](https://img.shields.io/badge/R-shinydashboard-blueviolet?style=flat-square) 
+![plotly](https://img.shields.io/badge/R-plotly-orange?style=flat-square) 
+![echarts4r](https://img.shields.io/badge/R-echarts4r-green?style=flat-square) 
+![dplyr](https://img.shields.io/badge/R-dplyr-red?style=flat-square) 
+![shinyWidgets](https://img.shields.io/badge/R-shinyWidgets-yellow?style=flat-square)
+
 ```r
 # Install dependencies
 install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "plotly", "echarts4r", "dplyr", "shinyWidgets"))
 ```
 
-Clone repo:
+### 🔄 Clone Repository
 ```bash
 git clone https://github.com/your-handle/TerminalList-AI-Dashboard.git
 ```
 
-Run app:
+### 🔎 Run the App
 ```r
 shiny::runApp("TerminalList-AI-Dashboard")
 ```
@@ -58,7 +67,7 @@ shiny::runApp("TerminalList-AI-Dashboard")
 ---
 
 ## 💻 Usage
-- 🧭 Navigate via sidebar: performance metrics, adoption gauges, accuracy charts.
+- 🗭 Navigate via sidebar: performance metrics, adoption gauges, accuracy charts.
 - 🎛️ Use filters to explore tools or military branches.
 - 📱 Mobile-friendly layout, optimized for dark HUD aesthetic.
 
@@ -101,3 +110,15 @@ This project shows that Hollywood isn’t imagining the future—it’s modeling
 ---
 
 _"AI cuts through the noise—gives us eyes where we’re blind." — Ben Edwards, The Terminal List_
+
+```r
+# Required Libraries
+library(shiny)
+library(shinydashboard)
+library(shinydashboardPlus)
+library(plotly)
+library(echarts4r)
+library(dplyr)
+library(shinyWidgets)
+```
+
